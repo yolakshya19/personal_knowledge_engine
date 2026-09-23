@@ -1,3 +1,5 @@
+# Databricks notebook source
+
 # Bronze ingestion pipeline
 
 # CELL 1
@@ -41,5 +43,5 @@ for job in data["jobs"]:
     print(f"Location: {job.get('location')}")
     print(f"Updated: {job.get('updated')}")
     print(f"URL: {job.get('link')}")
-    
+
 # COMMAND ----------
